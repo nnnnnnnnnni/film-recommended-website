@@ -1,0 +1,98 @@
+{
+    'douban':'https://api.douban.com/v2/movie/search?q=神秘巨星&start=0&count=10'
+    key	            类型	      描述
+    count	         int	      单页条数
+    start	         int	      数据的开始项
+    total	         int	      数据总条数
+    subjects         json	      电影列表
+    — id	         string	      电影id
+    — title	         string	      电影名中文名
+    — images         json         存放各种大小的电影图
+    —— s/l/m	     string	      电影图url
+    — genres	     json	      电影类型
+    — rating	     json	      评分信息
+    —— average    	 float	      电影评分
+    — directors	     json         导演列表
+    —— name	         string       导演名
+    — casts	         json	      主演列表
+    —— name	         string       主演名
+    — year	         int	      年份
+}
+
+{
+    "count": 1,
+    "start": 0,
+    "total": 13,
+    "subjects": [
+        {
+            "rating": {
+                "max": 10,
+                "average": 7.1,
+                "stars": "35",
+                "min": 0
+            },
+            "genres": [
+                "\u52a8\u4f5c",
+                "\u79d1\u5e7b",
+                "\u5192\u9669"
+            ],
+            "title": "\u5927\u9ec4\u8702",
+            "casts": [
+                {
+                    "alt": "https:\/\/movie.douban.com\/celebrity\/1312964\/",
+                    "avatars": {
+                        "small": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p20419.webp",
+                        "large": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p20419.webp",
+                        "medium": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p20419.webp"
+                    },
+                    "name": "\u6d77\u8389\u00b7\u65af\u5766\u83f2\u5c14\u5fb7",
+                    "id": "1312964"
+                },
+                {
+                    "alt": "https:\/\/movie.douban.com\/celebrity\/1376970\/",
+                    "avatars": {
+                        "small": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p1545624925.39.webp",
+                        "large": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p1545624925.39.webp",
+                        "medium": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p1545624925.39.webp"
+                    },
+                    "name": "\u5c0f\u8c6a\u5c14\u8d6b\u00b7\u5170\u767b\u4f2f\u683c",
+                    "id": "1376970"
+                },
+                {
+                    "alt": "https:\/\/movie.douban.com\/celebrity\/1044883\/",
+                    "avatars": {
+                        "small": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p23477.webp",
+                        "large": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p23477.webp",
+                        "medium": "https://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p23477.webp"
+                    },
+                    "name": "\u7ea6\u7ff0\u00b7\u585e\u7eb3",
+                    "id": "1044883"
+                }
+            ],
+            "collect_count": 477441,
+            "original_title": "Bumblebee",
+            "subtype": "movie",
+            "directors": [
+                {
+                    "alt": "https:\/\/movie.douban.com\/celebrity\/1305796\/",
+                    "avatars": {
+                        "small": "https://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p1471358307.31.webp",
+                        "large": "https://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p1471358307.31.webp",
+                        "medium": "https://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p1471358307.31.webp"
+                    },
+                    "name": "\u7279\u62c9\u7ef4\u65af\u00b7\u5948\u7279",
+                    "id": "1305796"
+                }
+            ],
+            "year": "2018",
+            "images": {
+                "small": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2541662397.webp",
+                "large": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2541662397.webp",
+                "medium": "https://img1.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2541662397.webp"
+            },
+            "alt": "https:\/\/movie.douban.com\/subject\/26394152\/",
+            "id": "26394152"
+        }
+    ],
+    "title": "\u641c\u7d22 \"\u5927\u9ec4\u8702\" \u7684\u7ed3\u679c"
+}
